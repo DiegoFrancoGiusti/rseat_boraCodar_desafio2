@@ -1,13 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 10px;
-    font-family: 'Lato', sans-serif;
+    outline: 0px;
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body,html{
-    height: 100%;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
     background-color: black;
 }
 
@@ -49,12 +53,12 @@ h1{
 }
 
 .productCode, .productPrice{
-    color: rgba(39, 26, 69, 0.7);
+    color: rgba(39, 26, 69, 0.75);
 }
 
 button{
-    width: 14.8rem;
-    height: 3.2rem;
+    width: 15rem;
+    height: 3.4rem;
     border: 1px solid #271A45;
     border-radius: 100px;
     background-color: transparent;
@@ -70,3 +74,6 @@ button:hover{
     transition: 0.7s;
 }
 
+.description{
+    margin: -3.2rem 13.2rem 0rem 1.3rem;
+}
