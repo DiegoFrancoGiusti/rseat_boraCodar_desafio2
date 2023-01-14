@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 87.5rem;
+    height: 49.8rem;
+    background-color: #D9CDF7;
+    border-radius: 9.6px;
+}
+
+.heading{
+    margin-bottom: 2rem;
+}
+
+.productCode{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+h1{
+    font-family: 'Crimson Pro', serif;
+    font-size: 3.2rem;
+    margin: 1.2rem 0rem;
+    color: rgb(39, 26, 69);
+}
+
+.productPrice{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.productCode, .productPrice{
+    color: rgba(39, 26, 69, 0.7);
+}
+
+button{
+    width: 14.8rem;
+    height: 3.2rem;
+    border: 1px solid #271A45;
+    border-radius: 100px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #271A45;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #271A45;
+    color: #D9CDF7;
+    transition: 0.7s;
+}
+
