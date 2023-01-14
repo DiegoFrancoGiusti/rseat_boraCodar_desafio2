@@ -1,4 +1,4 @@
-# rseat_boraCodar_desaf
+# rseat_boraCodar_desafio2
 
 2º desafio proposto pela Rocketseat no evento #boraCodar
 
