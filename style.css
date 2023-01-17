@@ -77,3 +77,18 @@ button:hover{
 .description{
     margin: -3.2rem 13.2rem 0rem 1.3rem;
 }
+
+.product{
+    width: 44.9rem;
+}
+
+.icon360deg{
+    position: absolute;
+    margin-left: 365px;
+}
+
+.imgProduct{
+    bottom: 0px;
+    width: 44.9rem;
+    height: 22.3rem;
+}

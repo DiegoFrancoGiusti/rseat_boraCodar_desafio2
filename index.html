@@ -13,7 +13,8 @@
 <body>
     <div class="card">
         <div class="product">
-            <img src="/img/sofá2.png" alt="sofá">
+            <img src="/img/360deg.png" alt="icone para ativar a imagem em 360 graus" class="icon360deg" id="off360">
+            <img src="/img/sofá2.png" alt="sofá" class="imgProduct">
         </div>
         <div class="description">
             <div class="heading">
@@ -24,5 +25,26 @@
             <button>ADICIONAR À CESTA</button>
         </div>
     </div>
+
+    <script>
+        const icon360deg = document.querySelector('.icon360deg')
+        const imgProduct = document.querySelector('.imgProduct')
+        let status360deg = document.querySelector('#off360')
+
+        icon360deg.addEventListener('click', active360)
+
+        function active360 (){
+            if(icon360deg.id === "off360"){
+                imgProduct.setAttribute('src', '/img/SofaboraCodar.gif')
+                icon360deg.setAttribute('src', '/img/btnClose.png')
+                icon360deg.setAttribute('id', 'on360')
+            }else if(icon360deg.id === "on360"){
+                imgProduct.setAttribute('src', '/img/Sofá2.png')
+                icon360deg.setAttribute('src', '/img/360deg.png')
+                icon360deg.setAttribute('id', 'off360')
+            }
+        }
+        
+    </script>
 </body>
 </html>
