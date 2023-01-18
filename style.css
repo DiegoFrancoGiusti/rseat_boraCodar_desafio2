@@ -3,6 +3,7 @@
     padding: 0px;
     outline: 0px;
     box-sizing: border-box;
+    --webkit-font-smoothing: antialiased;
 }
 
 html{
@@ -24,7 +25,6 @@ body{
 .card{
     display: flex;
     align-items: center;
-    justify-content: space-around;
     width: 87.5rem;
     height: 49.8rem;
     background-color: #D9CDF7;
@@ -38,6 +38,7 @@ body{
 .productCode{
     font-size: 1rem;
     font-weight: 300;
+    line-height: 100%;
 }
 
 h1{
@@ -57,8 +58,7 @@ h1{
 }
 
 button{
-    width: 15rem;
-    height: 3.4rem;
+    padding: 0.8rem 1.6rem;
     border: 1px solid #271A45;
     border-radius: 100px;
     background-color: transparent;
@@ -80,11 +80,13 @@ button:hover{
 
 .product{
     width: 44.9rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .icon360deg{
     position: absolute;
-    margin-left: 365px;
+    right: 50px;
 }
 
 .imgProduct{
